@@ -1,0 +1,182 @@
+
+
+body{
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.top{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  height: 25px;
+}
+.top a{
+  background-color: #322348;
+  width: 100%;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  vertical-align: middle;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+}
+.heading{
+  background: url("freedom.jpg") left 90% bottom 80%/cover no-repeat;
+  margin-top: 45px;
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+}
+.heading h1{
+  color: whitesmoke;
+  font-size: 5vw;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 50px 0px 0px 0px;
+  font-family: 'Bad Script', cursive;
+  
+}
+.heading h2{
+  color: black;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Bad Script', cursive;
+  height: 60px;
+}
+.heading p{
+  text-align: center;
+  font-size: 25px;
+  height: 70px;
+  margin: 0%;
+  padding: 0%;
+}
+
+/* -----------BUTTON----------- */
+
+.demo {
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  padding: 8px;
+  width: 60%;
+  border-radius: 6px;
+  height: 45px;
+  border-color: lightblue;
+  vertical-align: middle;
+  margin-top: 25px;
+  color: whitesmoke;
+  background: linear-gradient(to bottom, #3a7bd5, #538198);
+  text-align: center;
+}
+.demo span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+.demo span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+.demo:hover span {
+  padding-right: 25px;
+}
+.demo:hover,
+.demo:active{
+  background: whitesmoke;
+  color: black;
+}
+.demo:hover span:after {
+  opacity: 1;
+  right: 0;
+} 
+
+
+.demo_recomended {
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  padding: 8px 0px;
+  width: 60%;
+  border-radius: 6px;
+  height: 45px;
+  border-color: white;
+  vertical-align: middle;
+  margin: 8px;
+  color: black;
+  background: whitesmoke;
+  text-align: center;
+}
+.demo_recomended span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+.demo_recomended span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+.demo_recomended:hover span {
+  padding-right: 25px;
+}
+.demo_recomended:hover,
+.demo_recomended:active{
+  background: linear-gradient(to bottom, #3a7bd5, #538198);
+  color: black;
+}
+.demo_recomended:hover span:after {
+  opacity: 1;
+  right: 0;
+} 
+
+/* -----------reason_section---------------*/
+
+.reason_section{
+  margin-top: 50px;
+  height: 280px;
+  background-color: lightskyblue;
+}
+.reason_section h1{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding: 25px;
+}
+.reason_ul{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.reason_list{
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+.reason_para{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.reason_image{
+  background-color: white;
+  width: 108px;
+  height: 108px;
+  border: 2px solid black;
+  margin:  auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+
